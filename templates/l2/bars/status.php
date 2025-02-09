@@ -25,11 +25,10 @@ mysql_connect($db_serv,$db_user,$db_pass) or die (mysql_error());
 
 mysql_select_db($db_name) or die(mysql_error());
 ?>
-<center>Online Players
+<p>Online Players</p>
   <p>
-   <h3><?php print ("$num2"); ?></h3>
+   <?php print ("$num2"); ?>
   </p>
-</center>
 <?php
      
     //if ($server && $port && $timeout) {
