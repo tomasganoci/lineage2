@@ -1,110 +1,84 @@
 <!DOCTYPE html>
 <html lang="cs">
-
 <head>
-  <meta charset="UTF-8" />
-  <meta name="description" content="Lineage 2 Interlude Test server pro všechny co to chtějí zkusit." />
-  <meta name="keywords" content="L2,OnlineGame,Lineage 2, Interlude" />
-  <meta name="author" content="Tomáš Gánoci" />
-  <meta name="robots" content="index, follow" />
-  <link rel="shortcut icon" href="templates/l2/images/favicona.png" />
-  <link rel="stylesheet" type="text/css" href="templates/l2/css/style.css" />
-  <title>Lineage 2 Interlude
-  </title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Lineage 2 Interlude server s moderním dark-fantasy webem, statistikami a komunitními informacemi.">
+  <meta name="keywords" content="Lineage 2, Interlude, private server, MMORPG">
+  <meta name="author" content="Tomáš Gánoci">
+  <meta name="robots" content="index, follow">
+  <link rel="shortcut icon" href="templates/l2/images/favicona.png">
+  <link rel="stylesheet" href="templates/l2/css/style.css">
+  <title>Lineage 2 Interlude</title>
 </head>
-
 <body>
-  <div id="header">
-    <div id="logo">
-    </div>
-    <div id="menu">
-      <?php include "templates/l2/bars/menu.php" ?>
-    </div>
-    <a href="#header">
-      <div class="hook">
-      </div>
-    </a>
-  </div>
-  <div id="section">
-    <div id="site">
-      <div id="side-left">
-        <div class="nav-menu">
-          <div class="nav-menu-top">
-            <h2> Statistics </h2>
-          </div>
-          <div class="nav-menu-mid">
-            <?php include "templates/l2/bars/statistic.php" ?>
-          </div>
-          <div class="nav-menu-bottom">
-          </div>
-        </div>
-        <hr>
-        <div class="nav-menu">
-          <div class="nav-menu-top">
-            <h2> Vote Fo Us </h2>
-          </div>
-          <div class="nav-menu-mid">
-            <?php include "templates/l2/bars/vote.php" ?>
-          </div>
-          <div class="nav-menu-bottom">
-          </div>
-        </div>
-      </div>
-      <div id="side-mid">
-        <div class="nav-menu">
-          <div class="nav-mid-top">
-          </div>
-          <div class="nav-mid-mid">
-            <?php include "main.php" ?>
-          </div>
-          <div class="nav-mid-bottom">
-          </div>
-        </div>
-      </div>
-      <div id="side-right">
-        <div class="nav-menu">
-          <div class="nav-menu-top">
-            <h4> Server Status </h4>
-          </div>
-          <div class="nav-menu-mid">
-            <div class="css">
-              <p>
-                <a href="http://jigsaw.w3.org/css-validator/check/referer" title="CSS Ověřit" target=_blank>
-                  <img src="http://jigsaw.w3.org/css-validator/images/vcss-blue" alt="CSS Ověřit"></a>
-              </p>
-              <p>
-                <a href="http://seo-servis.cz/source-zdrojovy-kod/10256740" title="SEO Servis, optimalizace pro vyhledávače." target=_blank>
-                  <img src="http://seo-servis.cz/optimised.png" alt="Seo servis" height="15" width="80"></a>
-              </p>
-              <p>
-                <a href="http://validator.w3.org/check?uri=http%3A%2F%2Fl2icevortex.ic.cz%2F&amp;charset=%28detect+automatically%29&amp;doctype=Inline&amp;group=0&amp;No200=1&amp;user-agent=W3C_Validator%2F1.3+http%3A%2F%2Fvalidator.w3.org%2Fservices" title="Validator" target=_blank>
-                  <img src="templates/l2/images/validator.png" alt="Validator" height="15" width="80"></a>
-              </p>
-            </div>
-            <hr>
-          </div>
-          <div class="nav-menu-bottom">
-          </div>
-        </div>
-        <div class="nav-menu">
-          <div class="nav-menu-top">
-            <h4> Server Statistic </h4>
-          </div>
-          <div class="nav-menu-mid">
-          </div>
-          <div class="nav-menu-bottom">
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <hr>
-  <div id="footer"> <strong>Designet by Gony</strong>
-    <address>Tomáš Gánoci
-      <br>
-      <a href="mailto:gony65@gmail.com">Gony65@gmail.com</a>
-    </address>
-  </div>
-</body>
+  <div class="site-bg"></div>
 
+  <header id="header" class="site-header">
+    <div class="container hero">
+      <div class="brand">
+        <p class="eyebrow">Lineage 2 Interlude</p>
+        <h1>Nabušený moderní web pro tvůj server</h1>
+        <p class="lead">Rychlý, přehledný a připravený pro hráče, kteří chtějí vědět vše důležité na první pohled.</p>
+      </div>
+      <div class="hero-art" aria-hidden="true"></div>
+    </div>
+    <div id="menu" class="container menu-wrap">
+      <?php include "templates/l2/bars/menu.php"; ?>
+    </div>
+  </header>
+
+  <main id="section" class="container layout">
+    <aside id="side-left" class="panel">
+      <div class="panel-head">
+        <h2>Rychlé statistiky</h2>
+      </div>
+      <div class="panel-body">
+        <?php include "templates/l2/bars/statistic.php"; ?>
+      </div>
+    </aside>
+
+    <section id="side-mid" class="content">
+      <?php include "main.php"; ?>
+    </section>
+
+    <aside id="side-right" class="panel stack">
+      <div class="panel-card">
+        <div class="panel-head">
+          <h2>Server status</h2>
+        </div>
+        <div class="panel-body">
+          <?php include "templates/l2/bars/status.php"; ?>
+        </div>
+      </div>
+
+      <div class="panel-card">
+        <div class="panel-head">
+          <h2>Top žebříčky</h2>
+        </div>
+        <div class="panel-body">
+          <?php include "templates/l2/bars/server_statistic.php"; ?>
+        </div>
+      </div>
+
+      <div class="panel-card">
+        <div class="panel-head">
+          <h2>Podpoř server</h2>
+        </div>
+        <div class="panel-body">
+          <?php include "templates/l2/bars/vote.php"; ?>
+        </div>
+      </div>
+    </aside>
+  </main>
+
+  <footer id="footer">
+    <div class="container footer-inner">
+      <strong>Lineage 2 Interlude</strong>
+      <address>
+        Tomáš Gánoci · <a href="mailto:gony65@gmail.com">gony65@gmail.com</a>
+      </address>
+    </div>
+  </footer>
+</body>
 </html>
