@@ -18,7 +18,7 @@
     <div class="container hero">
       <div class="brand">
         <p class="eyebrow">Lineage 2 Interlude</p>
-        <h1>Nabušený moderní web pro tvůj server</h1>
+        <h1>Nabitý moderní web pro tvůj server</h1>
         <p class="lead">Rychlý, přehledný a připravený pro hráče, kteří chtějí vědět vše důležité na první pohled.</p>
       </div>
       <div class="hero-art" aria-hidden="true"></div>
