@@ -38,16 +38,16 @@ mysql_select_db($db_name) or die(mysql_error());
     
         
     if($login) {
-        echo "Login: <font color=#00DF00><b>Online</b></font><br>";
+        echo "Login: <span class=\"status-online\"><b>Online</b></span><br>";
     }
     else {
-        echo "Login: <font color=#FF0000><b>Offline</b></font><br>";
+        echo "Login: <span class=\"status-offline\"><b>Offline</b></span><br>";
     }
     if($game) {
-        echo "Game: <font color=#00DF00><b>Online</b></font><br>";
+        echo "Game: <span class=\"status-online\"><b>Online</b></span><br>";
     }
     else {
-        echo "Game: <font color=#FF0000><b>Offline</b></font><br>";
+        echo "Game: <span class=\"status-offline\"><b>Offline</b></span><br>";
     }
     echo "";
 ?>
