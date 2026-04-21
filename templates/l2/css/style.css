@@ -300,12 +300,24 @@ audio {
   height: auto;
 }
 
-font[color="#00DF00"] {
+.status-online {
   color: var(--ok);
 }
 
-font[color="#FF0000"] {
+.status-offline {
   color: var(--bad);
+}
+
+.rank-index {
+  color: #8f97b3;
+}
+
+.rank-pvp {
+  color: #ff78eb;
+}
+
+.rank-pk {
+  color: #ff6e7f;
 }
 
 a {

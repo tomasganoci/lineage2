@@ -21,9 +21,9 @@ while ( $row2=mysql_fetch_row($link2) )
     $query2 = "select classname from char_templates where classid=$row2[1]"; 
     $link3 = mysql_query($query2); 
     $FORM2 .= "<table width=181><tr> 
-   <td><div align=left><font color=#808080><b>$i2.</b></font></div></td>
+   <td><div align=left><span class=\"rank-index\"><b>$i2.</b></span></div></td>
    <td width=211><div align=center>$row2[0]</div></td>
-   <td><div align=right><font color=#FF0000>$row2[2]</font></div></td>
+   <td><div align=right><span class=\"rank-pk\">$row2[2]</span></div></td>
     </tr></table>"; 
     $i2++; 
     $r2 -= 0; 
@@ -33,9 +33,9 @@ while ( $row=mysql_fetch_row($link) )
     $query = "select classname from char_templates where classid=$row[1]"; 
     $link2 = mysql_query($query); 
     $FORM .= "<table width=181><tr> 
-   <td><div align=left><font color=#808080><b>$i.</b></font></div></td>
+   <td><div align=left><span class=\"rank-index\"><b>$i.</b></span></div></td>
    <td width=211><div align=center>$row[0]</div></td>
-   <td><div align=right><font color=#FF33FF>$row[2]</font></div></td>
+   <td><div align=right><span class=\"rank-pvp\">$row[2]</span></div></td>
     </tr></table>"; 
     $i++; 
     $r -= 0; 
@@ -45,8 +45,8 @@ echo $FORM;
                                     ?>
 <br>
 <center><b>
-    <font color="#FF0000">. . : : TOP PK : : . .
-    </font></b></center>                                    
+    <span class="rank-pk">. . : : TOP PK : : . .
+    </span></b></center>                                    
 <?php  
 echo $FORM2; 
                                     ?> 

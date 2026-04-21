@@ -29,7 +29,7 @@
       <ul>
         <li>Vytvoř account</li>
         <li>Stáhni klienta</li>
-        <li>Připoj se a začni expit</li>
+        <li>Připoj se a začni expovat</li>
       </ul>
     </div>
     <div class="info-box">
