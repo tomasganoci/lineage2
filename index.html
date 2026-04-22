@@ -217,23 +217,33 @@
         <div class="panel-body">
           <ul class="vote-list">
             <li>
-              <img src="img/rank_button_1.gif" alt="L2Games.cz TopList" title="L2Games.cz TopList">
+              <a href="#" aria-label="Hlasovat přes TopList 1">
+                <img src="img/rank_button_1.gif" alt="Hlasovat přes TopList 1" title="Hlasovat přes TopList 1">
+              </a>
               <img src="templates/l2/images/line-module.png" alt="" aria-hidden="true" height="10" width="185">
             </li>
             <li>
-              <img src="img/rank_button_2.gif" alt="L2Games.cz TopList" title="L2Games.cz TopList">
+              <a href="#" aria-label="Hlasovat přes TopList 2">
+                <img src="img/rank_button_2.gif" alt="Hlasovat přes TopList 2" title="Hlasovat přes TopList 2">
+              </a>
               <img src="templates/l2/images/line-module.png" alt="" aria-hidden="true" height="10" width="185">
             </li>
             <li>
-              <img src="img/rank_button_3.gif" alt="L2Games.cz TopList" title="L2Games.cz TopList">
+              <a href="#" aria-label="Hlasovat přes TopList 3">
+                <img src="img/rank_button_3.gif" alt="Hlasovat přes TopList 3" title="Hlasovat přes TopList 3">
+              </a>
               <img src="templates/l2/images/line-module.png" alt="" aria-hidden="true" height="10" width="185">
             </li>
             <li>
-              <img src="img/rank_button_4.gif" alt="L2Games.cz TopList" title="L2Games.cz TopList">
+              <a href="#" aria-label="Hlasovat přes TopList 4">
+                <img src="img/rank_button_4.gif" alt="Hlasovat přes TopList 4" title="Hlasovat přes TopList 4">
+              </a>
               <img src="templates/l2/images/line-module.png" alt="" aria-hidden="true" height="10" width="185">
             </li>
             <li>
-              <img src="img/rank_button_5.gif" alt="L2Games.cz TopList" title="L2Games.cz TopList">
+              <a href="#" aria-label="Hlasovat přes TopList 5">
+                <img src="img/rank_button_5.gif" alt="Hlasovat přes TopList 5" title="Hlasovat přes TopList 5">
+              </a>
               <img src="templates/l2/images/line-module.png" alt="" aria-hidden="true" height="10" width="185">
             </li>
           </ul>
