@@ -235,6 +235,10 @@ h1 {
   margin-bottom: 1rem;
 }
 
+.audio-label {
+  margin-top: 0.45rem;
+}
+
 audio {
   width: 100%;
   margin-top: 0.45rem;
@@ -303,6 +307,18 @@ audio {
 .panel-body img {
   max-width: 100%;
   height: auto;
+}
+
+.vote-list {
+  list-style: none;
+  display: grid;
+  gap: 0.5rem;
+}
+
+.vote-list li {
+  display: grid;
+  justify-items: center;
+  gap: 0.3rem;
 }
 
 .status-online {

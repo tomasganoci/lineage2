@@ -101,10 +101,12 @@
 
         <section class="music-block">
           <h4>Soundtrack</h4>
-          <audio src="player/audio.mp3" controls>
+          <p class="audio-label">Track 1</p>
+          <audio src="player/audio.mp3" controls aria-label="Soundtrack Track 1">
             Audio nelze přehrát. Tvůj prohlížeč nepodporuje HTML5 audio.
           </audio>
-          <audio src="player/song.mp3" controls>
+          <p class="audio-label">Track 2</p>
+          <audio src="player/song.mp3" controls aria-label="Soundtrack Track 2">
             Audio nelze přehrát. Tvůj prohlížeč nepodporuje HTML5 audio.
           </audio>
         </section>
@@ -213,18 +215,28 @@
           <h2>Podpoř server</h2>
         </div>
         <div class="panel-body">
-          <p>
-            <img src="img/rank_button_1.gif" alt="L2Games.cz TopList" title="L2Games.cz TopList"><br>
-            <img src="templates/l2/images/line-module.png" alt="line-module" title="line-module" height="10" width="185"><br>
-            <img src="img/rank_button_2.gif" alt="L2Games.cz TopList" title="L2Games.cz TopList"><br>
-            <img src="templates/l2/images/line-module.png" alt="line-module" title="line-module" height="10" width="185"><br>
-            <img src="img/rank_button_3.gif" alt="L2Games.cz TopList" title="L2Games.cz TopList"><br>
-            <img src="templates/l2/images/line-module.png" alt="line-module" title="line-module" height="10" width="185"><br>
-            <img src="img/rank_button_4.gif" alt="L2Games.cz TopList" title="L2Games.cz TopList"><br>
-            <img src="templates/l2/images/line-module.png" alt="line-module" title="line-module" height="10" width="185"><br>
-            <img src="img/rank_button_5.gif" alt="L2Games.cz TopList" title="L2Games.cz TopList"><br>
-            <img src="templates/l2/images/line-module.png" alt="line-module" title="line-module" height="10" width="185">
-          </p>
+          <ul class="vote-list">
+            <li>
+              <img src="img/rank_button_1.gif" alt="L2Games.cz TopList" title="L2Games.cz TopList">
+              <img src="templates/l2/images/line-module.png" alt="" aria-hidden="true" height="10" width="185">
+            </li>
+            <li>
+              <img src="img/rank_button_2.gif" alt="L2Games.cz TopList" title="L2Games.cz TopList">
+              <img src="templates/l2/images/line-module.png" alt="" aria-hidden="true" height="10" width="185">
+            </li>
+            <li>
+              <img src="img/rank_button_3.gif" alt="L2Games.cz TopList" title="L2Games.cz TopList">
+              <img src="templates/l2/images/line-module.png" alt="" aria-hidden="true" height="10" width="185">
+            </li>
+            <li>
+              <img src="img/rank_button_4.gif" alt="L2Games.cz TopList" title="L2Games.cz TopList">
+              <img src="templates/l2/images/line-module.png" alt="" aria-hidden="true" height="10" width="185">
+            </li>
+            <li>
+              <img src="img/rank_button_5.gif" alt="L2Games.cz TopList" title="L2Games.cz TopList">
+              <img src="templates/l2/images/line-module.png" alt="" aria-hidden="true" height="10" width="185">
+            </li>
+          </ul>
         </div>
       </div>
     </aside>
