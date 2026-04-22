@@ -143,7 +143,7 @@
         </div>
         <div class="panel-body">
           <section class="rank-group">
-            <span class="server_statistic">. . : : TOP PVP : : . .</span>
+            <h3 class="server_statistic">. . : : TOP PVP : : . .</h3>
             <table>
               <tbody>
                 <tr>
@@ -176,7 +176,7 @@
           </section>
 
           <section class="rank-group">
-            <span class="server_statistic">. . : : TOP PK : : . .</span>
+            <h3 class="server_statistic">. . : : TOP PK : : . .</h3>
             <table>
               <tbody>
                 <tr>

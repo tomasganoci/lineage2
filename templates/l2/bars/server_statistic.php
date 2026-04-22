@@ -1,4 +1,4 @@
-<span id="server_statistic">. . : : TOP PVP : : . .
+<span class="server_statistic">. . : : TOP PVP : : . .
     </span>
 <?php 
 function connect() 
