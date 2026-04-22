@@ -278,11 +278,16 @@ audio {
   color: var(--text);
 }
 
+.server_statistic,
 #server_statistic {
   color: var(--accent);
   font-weight: 700;
   display: inline-block;
   margin-bottom: 0.4rem;
+}
+
+.rank-group + .rank-group {
+  margin-top: 0.75rem;
 }
 
 .panel-body table {

@@ -140,69 +140,71 @@
           <h2>Top žebříčky</h2>
         </div>
         <div class="panel-body">
-          <span id="server_statistic">. . : : TOP PVP : : . .</span>
-          <table>
-            <tbody>
-              <tr>
-                <td><span class="rank-index"><b>1.</b></span></td>
-                <td>PlayerOne</td>
-                <td><span class="rank-pvp">999</span></td>
-              </tr>
-              <tr>
-                <td><span class="rank-index"><b>2.</b></span></td>
-                <td>PlayerTwo</td>
-                <td><span class="rank-pvp">850</span></td>
-              </tr>
-              <tr>
-                <td><span class="rank-index"><b>3.</b></span></td>
-                <td>PlayerThree</td>
-                <td><span class="rank-pvp">700</span></td>
-              </tr>
-              <tr>
-                <td><span class="rank-index"><b>4.</b></span></td>
-                <td>PlayerFour</td>
-                <td><span class="rank-pvp">500</span></td>
-              </tr>
-              <tr>
-                <td><span class="rank-index"><b>5.</b></span></td>
-                <td>PlayerFive</td>
-                <td><span class="rank-pvp">320</span></td>
-              </tr>
-            </tbody>
-          </table>
+          <section class="rank-group">
+            <span class="server_statistic">. . : : TOP PVP : : . .</span>
+            <table>
+              <tbody>
+                <tr>
+                  <td><span class="rank-index"><b>1.</b></span></td>
+                  <td>PlayerOne</td>
+                  <td><span class="rank-pvp">999</span></td>
+                </tr>
+                <tr>
+                  <td><span class="rank-index"><b>2.</b></span></td>
+                  <td>PlayerTwo</td>
+                  <td><span class="rank-pvp">850</span></td>
+                </tr>
+                <tr>
+                  <td><span class="rank-index"><b>3.</b></span></td>
+                  <td>PlayerThree</td>
+                  <td><span class="rank-pvp">700</span></td>
+                </tr>
+                <tr>
+                  <td><span class="rank-index"><b>4.</b></span></td>
+                  <td>PlayerFour</td>
+                  <td><span class="rank-pvp">500</span></td>
+                </tr>
+                <tr>
+                  <td><span class="rank-index"><b>5.</b></span></td>
+                  <td>PlayerFive</td>
+                  <td><span class="rank-pvp">320</span></td>
+                </tr>
+              </tbody>
+            </table>
+          </section>
 
-          <br>
-
-          <span id="server_statistic">. . : : TOP PK : : . .</span>
-          <table>
-            <tbody>
-              <tr>
-                <td><span class="rank-index"><b>1.</b></span></td>
-                <td>PlayerOne</td>
-                <td><span class="rank-pk">450</span></td>
-              </tr>
-              <tr>
-                <td><span class="rank-index"><b>2.</b></span></td>
-                <td>PlayerTwo</td>
-                <td><span class="rank-pk">390</span></td>
-              </tr>
-              <tr>
-                <td><span class="rank-index"><b>3.</b></span></td>
-                <td>PlayerThree</td>
-                <td><span class="rank-pk">210</span></td>
-              </tr>
-              <tr>
-                <td><span class="rank-index"><b>4.</b></span></td>
-                <td>PlayerFour</td>
-                <td><span class="rank-pk">180</span></td>
-              </tr>
-              <tr>
-                <td><span class="rank-index"><b>5.</b></span></td>
-                <td>PlayerFive</td>
-                <td><span class="rank-pk">120</span></td>
-              </tr>
-            </tbody>
-          </table>
+          <section class="rank-group">
+            <span class="server_statistic">. . : : TOP PK : : . .</span>
+            <table>
+              <tbody>
+                <tr>
+                  <td><span class="rank-index"><b>1.</b></span></td>
+                  <td>PlayerOne</td>
+                  <td><span class="rank-pk">450</span></td>
+                </tr>
+                <tr>
+                  <td><span class="rank-index"><b>2.</b></span></td>
+                  <td>PlayerTwo</td>
+                  <td><span class="rank-pk">390</span></td>
+                </tr>
+                <tr>
+                  <td><span class="rank-index"><b>3.</b></span></td>
+                  <td>PlayerThree</td>
+                  <td><span class="rank-pk">210</span></td>
+                </tr>
+                <tr>
+                  <td><span class="rank-index"><b>4.</b></span></td>
+                  <td>PlayerFour</td>
+                  <td><span class="rank-pk">180</span></td>
+                </tr>
+                <tr>
+                  <td><span class="rank-index"><b>5.</b></span></td>
+                  <td>PlayerFive</td>
+                  <td><span class="rank-pk">120</span></td>
+                </tr>
+              </tbody>
+            </table>
+          </section>
         </div>
       </div>
 
